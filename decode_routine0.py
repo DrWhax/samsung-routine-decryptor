@@ -3,7 +3,7 @@
 Decode a Samsung Routines routine_<id> file into header/body/footer and JSON body.
 
 Decompiled app flow shows the body is JSON, optionally AES-GCM encrypted for
-version >= 2.0 using a device-derived key (not a user password).
+version >= 2.0 using an APK certificate key (not a user password).
 """
 from __future__ import annotations
 
